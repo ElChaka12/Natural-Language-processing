@@ -1,115 +1,98 @@
+# Reads "Word game text file.txt", where each line is:
+#   base_word, solution1, solution2, ...
+# or
+#   (base_word), solution1, solution2, ...  (parentheses = base word excluded from solution checks)
+#
+# Removes any solution word whose syllables are not a subset of the base word's syllables.
+# Writes the cleaned lines to "Cleaned Word game text file.txt".
+
 from syllable import extract_syllable
 
-
-# This script reads a Setswana word-game text file, 
-#separate base words from solution words
-# extracts syllables from every base word using the extract_syllable() function,
-# extract all syllables from solution words and compare them to the base word syllables
-####pass an error message if the solution words do not contain the same syllables as the base wordwith open("Word game text file.txt", "r") as f:##
-#return the error message and remove the word from the list of solution words if it does not contain the same syllables as the base word
-#return a success message if all solution words contain the same syllables as the base word
-#return the cleaned file with only the valid solution words that contain the same syllables as the base word
-
-
+# Load the entire input file and split into individual lines
 with open("Word game text file.txt", "r") as f:
     all_sentences = f.read().split("\n")
 
+# Accumulators for the output and summary statistics
+cleaned_lines = []
+total_removed = 0
+total_kept    = 0
 
-    cleaned_lines = []
-    total_removed = 0
-    total_kept    = 0
-
-
-
+# Process each comma-separated line from the input file
 for sentence in all_sentences:
 
-    # Skip blank lines (empty strings after splitting on "\n")
+    # Skip blank lines
     if not sentence.strip():
         continue
 
-
     possible_words = sentence.split(",")
-
-# Get the raw first word (may have brackets)
     raw_first = possible_words[0]
 
-    if raw_first.startswith("(") and raw_first.endswith(")"):
-        begin = 1   # skip the bracketed word; real words start at index 1
+    # begin=1 skips the base word when it's parenthesised (it's a label, not a solution)
+    if raw_first.strip().startswith("(") and raw_first.strip().endswith(")"):
+        begin = 1
     else:
-        begin = 0   # no brackets; real words start at index 0
+        begin = 0
 
-
-    # Clean up the base word 
-    # Strip any surrounding brackets from the base word so we can analyse it.
-    # .strip("(") removes "(" from left and right.
-    # .strip(")") removes ")" from left and right.
-    # .strip()    removes any extra whitespace.
-
+    # Strip parentheses and whitespace to get the clean base word
     base_word = raw_first.strip("(").strip(")").strip()
 
+    # Skip lines where the base word is missing or contains non-alpha characters
     if not base_word or not base_word.isalpha():
         continue
 
+    # Slice the candidate solutions (skip index 0 if the base is parenthesised)
     actual_words_list = possible_words[begin:]
-
-
-
-
-    # Extract syllables 
-    # Call extract_syllable() with the clean base word.
-    # Returns a list like ['e', 'be', 'la'] for "ebela".
     base_syllables = extract_syllable(base_word)
 
+    # Skip if the base word has no syllables (unrecognised word)
     if not base_syllables:
         continue
-    print(type(extract_syllable))   # should print <class 'function'>
+
     base_syllable_set = set(base_syllables)
-#iterate through the actual words and extract syllables from each, then compare to base syllables and print an error message and remove the word from the list if it does not contain the same syllables as the base word
     valid_solution_words = []
     removed_words = []
 
+    # Check each candidate solution against the base word's syllable set
     for word in actual_words_list:
-      word = word.strip()  # Remove extra whitespace
+        word = word.strip()
 
-    if not word.isalpha():
-          continue  # Skip non-alphabetic words
-      
-    if not word:
-          continue  # Skip empty words
+        # Skip empty tokens and non-alphabetic entries
+        if not word or not word.isalpha():
+            continue
 
+        word_syllables = extract_syllable(word)
 
-    word_syllables = extract_syllable(word)
-    if not word_syllables:
-          continue  # Skip words that can't be syllable-extracted
-      
-    word_syllable_set = set(word_syllables)
-      
-    if word_syllable_set.issubset(base_syllable_set):
-          valid_solution_words.append(word)
-          total_kept += 1
-    else:
-           extract_syllable = word_syllable_set - base_syllable_set
-           print(f"Error: '{word}' contains syllables {extract_syllable} not in base word '{base_word}'")
-           removed_words.append(word)
-           total_removed += 1
+        # Skip if the word's syllables cannot be determined
+        if not word_syllables:
+            continue
 
-           if valid_solution_words:
-               cleaned_line = f"{base_word}, " + ", ".join(valid_solution_words)
-               cleaned_lines.append(cleaned_line)
+        word_syllable_set = set(word_syllables)
 
+        # Keep the word only if all its syllables appear in the base word
+        if word_syllable_set.issubset(base_syllable_set):
+            valid_solution_words.append(word)
+            total_kept += 1
+        else:
+            extra_syllables = word_syllable_set - base_syllable_set
+            print(f"REMOVED '{word}' (from '{base_word}'): "
+                  f"syllables {sorted(extra_syllables)} not in base set {sorted(base_syllable_set)}")
+            removed_words.append(word)
+            total_removed += 1
 
-        #reurn the cleaned file with only the valid solution words that contain the same syllables as the base word
+    # Only write a line if at least one valid solution survived
+    if valid_solution_words:
+        output_base = f"({base_word})" if begin == 1 else base_word
+        cleaned_line = output_base + "," + ",".join(valid_solution_words)
+        cleaned_lines.append(cleaned_line)
 
-    with open("Cleaned Word game text file.txt", "w") as f:
-           f.write("\n".join(cleaned_lines))
+# Write all surviving lines to the output file
+with open("Cleaned Word game text file.txt", "w") as f:
+    f.write("\n".join(cleaned_lines))
 
-
-    print()
-    print(f"Data cleaning complete")
-    print(f"Total valid solution words kept: {total_kept}")
-    print(f"Total invalid solution words removed: {total_removed}")
-    print(f"Cleaned data written to 'Cleaned Word game text file.txt'")
-
-
-
-    
+# Print a final summary of what was kept, removed, and written
+print()
+print(f"Data cleaning complete.")
+print(f"Total valid solution words kept    : {total_kept}")
+print(f"Total invalid solution words removed: {total_removed}")
+print(f"Lines written to file              : {len(cleaned_lines)}")
+print(f"Cleaned data written to 'Cleaned Word game text file.txt'")
