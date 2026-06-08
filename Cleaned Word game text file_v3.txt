@@ -1,0 +1,198 @@
+khudu (khu, du) : khudu, khud, khu, du
+kobo (ko, bo) : kobo, kob, ko, bo
+lona (lo, na) : lona, lon, lo, na
+matlho (ma, tlho) : matlho, tlho, tlhoma
+matlho (ma, tlho) : matlho, tlhom, tlhomal
+noka (no, ka) : noka, nok, no, ka
+phenyo (phe, nyo) : pheny
+sesa (se, sa) : sesa, ses, se, sa
+tlotlo (tlo, tlo) : tlotlo, tlot, tlol
+basiwa (ba, si, wa) : basiwa, basi, siwa
+bekala (be, ka, la) : bekala, beka, kala, beka
+bemelo (be, me, lo) : bemelo, beme, melo, belo, lome
+boemo (bo, e, mo) : boemo, boem, emo
+bogang (bo, ga, ng) : bogang, boga, gang
+bolapo (bo, la, po) : bolapo, bola, lapo
+bolotsa (bo, lo, tsa) : bolotsa, bolo, lotsa
+bontsho (bo, n, tsho) : bontsho, bontsh, ntsho, tsho
+bopelwa (bo, pe, lwa) : bopelwa, bope, pelwa
+bosiwa (bo, si, wa) : bosiwa, bosi, siwa
+dekala (de, ka, la) : dekala, deka, kala, deka
+demelo (de, me, lo) : demelo, deme, melo, delo, lome
+dipalo (di, pa, lo) : dipa, palo, dilo, padi
+fekala (fe, ka, la) : fekala, feka, kala, feka
+femelo (fe, me, lo) : femelo, feme, melo, felo, lome
+folapo (fo, la, po) : folapo, fola, lapo
+fopelwa (fo, pe, lwa) : fopelwa, fope, pelwa
+gobaka (go, ba, ka) : gobaka, baka, goba, kago
+gobala (go, ba, la) : gobala, goba, bala
+golapo (go, la, po) : golapo, gola, lapo
+gopelwa (go, pe, lwa) : gopelwa, gope, pelwa
+gosiwa (go, si, wa) : gosiwa, gosi, siwa
+iphara (i, pha, ra) : iphara, ipha, phara
+iphasa (i, pha, sa) : iphasa, ipha, phasa
+isiwa (i, si, wa) : isiwa, iwa
+ithaba (i, tha, ba) : ithaba, itha, thaba
+ithapa (i, tha, pa) : ithapa, itha, thapa
+ithoba (i, tho, ba) : ithoba, thoba
+itlhaba (i, tlha, ba) : itlhaba, itlha, tlhaba, itlhaba
+itlhafa (i, tlha, fa) : itlhafa, itlha, tlhafa, itlhafa
+itlhaga (i, tlha, ga) : itlhaga, tlhaga, iga, gatlha
+itlhaka (i, tlha, ka) : itlhaka, itlha, tlhaka
+itlhaka (i, tlha, ka) : itlhaka, itlha, tlhaka, itlhaka
+itlhala (i, tlha, la) : itlhala, itlha, tlhala, itlhala
+kagiso (ka, gi, so) : kagiso, kagis, kagi
+kaifo (ka, i, fo) : kaifo, kaif, kaf, ifo
+kebala (ke, ba, la) : kebala, keba, bala
+kekala (ke, ka, la) : kekala, keka, kala, keka
+kelelo (ke, le, lo) : kelelo, kele, lelo, kelo, lole
+kemelo (ke, me, lo) : kemelo, keme, melo, kelo, lome
+kgabako (kga, ba, ko) : kgabako, kgaba, bako
+kgabiso (kga, bi, so) : kgabiso, kgabi, biso
+kgolokwe (kgo, lo, kwe) : kgolokwe, kgolo, lokwe, kwelo
+kgotlhang (kgo, tlha, ng) : kgotlhang, kgotlha, tlhang, tlhakgo
+kisiwa (ki, si, wa) : kisiwa, siwa
+kolapo (ko, la, po) : kolapo, kola, lapo
+kopano (ko, pa, no) : kopano, kopa, pano
+kopelo (ko, pe, lo) : kope, pelo, kolo, lope
+kopelwa (ko, pe, lwa) : kopelwa, kope, pelwa
+kwasiwa (kwa, si, wa) : kwasiwa, kwasi, siwa
+lasiwa (la, si, wa) : lasiwa, siwa
+lebala (le, ba, la) : lebala, leba, bala, bale
+lehumo (le, hu, mo) : lehumo, lehum, humo
+lekala (le, ka, la) : lekala, leka, kala, kale, leka
+lemelo (le, me, lo) : lemelo, leme, melo, lelo, lome
+letlole (le, tlo, le) : letlole, letlo, tlole
+lobaka (lo, ba, ka) : lobaka, baka, loba, kalo
+lolapo (lo, la, po) : lolapo, lopo, lola, polo, lapo
+lopelwa (lo, pe, lwa) : lopelwa, lope, pelwa
+lotsiwa (lo, tsi, wa) : lotsiwa, lotsi
+maatla (ma, a, tla) : maatla, maat, atla, maat, tlam
+mekala (me, ka, la) : mekala, meka, kala, meka
+molapo (mo, la, po) : molapo, mola, lapo
+molapo (mo, la, po) : molapo, mola, lapo
+molato (mo, la, to) : molato, molat, lato, mola
+mopelwa (mo, pe, lwa) : mopelwa, mope, pelwa
+motheo (mo, the, o) : motheo, mothe, theo, othem
+motswako (mo, tswa, ko) : motswako, motswak, motswa
+nekala (ne, ka, la) : nekala, neka, kala, neka
+nemelo (ne, me, lo) : nemelo, neme, melo, nelo, lome
+nopelwa (no, pe, lwa) : nopelwa, nope, pelwa
+palama (pa, la, ma) : palama, pala, lama, lapa, mala
+phemelo (phe, me, lo) : phemelo, pheme, melo, lome
+phokojwe (pho, ko, jwe) : phokojwe, phokojw, phoko, jwe
+phuthego (phu, the, go) : phuthego
+pududu (pu, du, du) : pududu, pudu, dudu, pud
+ratsiwa (ra, tsi, wa) : ratsiwa, ratsi
+rebala (re, ba, la) : rebala, reba, bala, bare
+rekala (re, ka, la) : rekala, reka, kala, reka
+remelo (re, me, lo) : remelo, reme, melo, relo, lome
+resiwa (re, si, wa) : resiwa, resi, siwa, sire
+rolapo (ro, la, po) : rolapo, rola, lapo
+ropelwa (ro, pe, lwa) : ropelwa, rope, pelwa
+sebaka (se, ba, ka) : sebaka, baka, seba, base, kase
+sebala (se, ba, la) : sebala, seba, bala, base
+seboko (se, bo, ko) : seboko, boko, seko, bose, kose
+segang (se, ga, ng) : segang, sega, gang
+sekala (se, ka, la) : sekala, seka, kala, seka
+selapo (se, la, po) : selapo, sela, laps
+semelo (se, me, lo) : semelo, seme, melo, selo, lome
+setlhako (se, tlha, ko) : setlhako, tlhako, seko, tlhase, kose
+setshwano (se, tshwa, no) : setshwano, setshwa
+sopelwa (so, pe, lwa) : sopelwa, sope, pelwa
+tekala (te, ka, la) : tekala, teka, kala, teka
+temelo (te, me, lo) : temelo, teme, melo, telo, lome
+thobala (tho, ba, la) : thobala, thoba, bala
+tlhabaka (tlha, ba, ka) : tlhabaka, tlhaba, baka, tlhaka
+tlhagisa (tlha, gi, sa) : tlhagisa, gisa, tlhasa
+tlhagiso (tlha, gi, so) : tlhagiso, tlhagi, giso
+tlhobala (tlho, ba, la) : tlhobala, tlhoba, bala
+tolapo (to, la, po) : tolapo, tola, lapo
+topelwa (to, pe, lwa) : topelwa, tope, pelwa
+tshegetso (tshe, ge, tso) : tshege, getso, tshe
+tshenolo (tshe, no, lo) : tshenolo, tsheno, tshen, nolo
+tshiamo (tshi, a, mo) : tshiamo, tshiam, tshia
+tshikela (tshi, ke, la) : tshikela, tshike, kela
+tsogelo (tso, ge, lo) : tsogelo, tsoge, gelo, tsolo, loge
+tutwane (tu, twa, ne) : tutwane, tutwan, tutwa
+baakanyi (ba, a, ka, nyi) : baakany, aakany, baaka, kany, baakan
+bakolola (ba, ko, lo, la) : bakolola, kolo, kola, loba
+boitshwaro (bo, i, tshwa, ro) : boitshwaro, boitshwa, itshwaro, boitsh, itshwar
+bopalama (bo, pa, la, ma) : bopalama, bopala, palama, pala, lama, lama
+bopeloi (bo, pe, lo, i) : bopeloi, bopel, peloi, bope, loip
+buisiwa (bu, i, si, wa) : buisiwa, buisi, siwa, ibu
+ditshwanelo (di, tshwa, ne, lo) : ditshwane, tshwanelo, ditshwa, nelodi, tshwanel
+gagolola (ga, go, lo, la) : gagolola, gagolo, golola, gola, lago
+gakolola (ga, ko, lo, la) : gakolola, kolo, kola, loga
+godikela (go, di, ke, la) : godikela, godike, dikela, godike, kela
+gopalama (go, pa, la, ma) : gopalama, gopala, palama, pala, lama, lago, lama
+itlhompha (i, tlho, m, pha) : itlhompha, tlhompha, ipha
+kakolola (ka, ko, lo, la) : kakolola, kolo, kola, kaka, loka
+kapalama (ka, pa, la, ma) : kapalama, kapala, palama, pala, lama, laka, lama
+kgatlhanong (kga, tlha, no, ng) : kgatlha, tlhanong
+kgolokela (kgo, lo, ke, la) : kgolokela, kgolo, lokela, kgola, loke, kgoloke
+kgotlhagano (kgo, tlha, ga, no) : kgotlha, tlhagano, gano, tlhaga, tlha
+khumonego (khu, mo, ne, go) : khumonego, khumone, khumo, nego, monego
+khumonego (khu, mo, ne, go) : khumonego, khumone, khumo, nego, monego
+lakolola (la, ko, lo, la) : lakolola, kolo, lola, kola, lola
+lepalama (le, pa, la, ma) : lepalama, lepala, palama, pala, lama, lama
+maipato (ma, i, pa, to) : maipato, maipat, ipato, maipt, pato
+makolola (ma, ko, lo, la) : makolola, kolo, kola, loma
+mapalama (ma, pa, la, ma) : mapalama, mapala, palama, pala, lama, lapa, mala, lama
+molatwana (mo, la, twa, na) : molatw, latwana, mola, twan, molat
+nakolola (na, ko, lo, la) : nakolola, kolo, kola, lona
+napalama (na, pa, la, ma) : napalama, napala, palama, pala, lama, lana, lama
+ngangaetsa (nga, nga, e, tsa) : ngangaetsa, nganga, etsa, ngangaet
+ntlentle (n, tle, n, tle) : ntlentle, ntlent, ntlen, tle
+ntlhakore (n, tlha, ko, re) : ntlhakore, ntlha, kore, ntlhako
+peolwane (pe, o, lwa, ne) : peolwane, peolwan, peolw
+phetolelo (phe, to, le, lo) : phetole, phetol
+phirimelo (phi, ri, me, lo) : phirime, phirim, melo
+popagano (po, pa, ga, no) : popag, pagano, popan, gano
+rakolola (ra, ko, lo, la) : rakolola, kolo, kola, lora
+rapalama (ra, pa, la, ma) : rapalama, rapala, palama, pala, lama, lara, lama
+sakolola (sa, ko, lo, la) : sakolola, kolo, kola, losa
+sapalama (sa, pa, la, ma) : sapalama, sapala, palama, pala, lama, lasa, lama
+segopotso (se, go, po, tso) : segopotso, segopo, gopotso, sego, potso, gopo
+sekopela (se, ko, pe, la) : sekopela, sekop, kopela, seko, pela, sekope
+semokotlo (se, mo, ko, tlo) : semokotlo, semoko, mokotlo, seko, kotlo
+senokwane (se, no, kwa, ne) : senokwane, senokw, nokwane, senok
+setshwantsho (se, tshwa, n, tsho) : setshwant, tshwantsho, setshwa, ntsho, tsho
+takolola (ta, ko, lo, la) : takolola, kolo, kola, lota
+tapalama (ta, pa, la, ma) : tapalama, tapala, palama, pala, lama, lata, lama
+thulaganyo (thu, la, ga, nyo) : thulaganyo, thulagan, ganyo, thulag
+thulaganyo (thu, la, ga, nyo) : thulaganyo, thulagan, thulag
+tirisano (ti, ri, sa, no) : tirisano, tiris, tirisan, tiri
+tirisong (ti, ri, so, ng) : tiriso, risong, tiri, song
+tlhagafalo (tlha, ga, fa, lo) : tlhagafalo, tlhagafa, tlhaga, falo
+tlhalosang (tlha, lo, sa, ng) : tlhalosang, tlhalo, losang, sang, losang
+tlhalosanyo (tlha, lo, sa, nyo) : tlhalo, losanyo, tlhalos, sany, tlhalosy
+tlhapogelo (tlha, po, ge, lo) : tlhapogelo, tlhapoge, tlhapo, gelo, poge
+tlhoafala (tlho, a, fa, la) : tlhoafala, tlhoafa, tlhoa, fala, afal
+tlhokisang (tlho, ki, sa, ng) : tlhokisang, tlhokis, kisang, sang
+tlhokofalo (tlho, ko, fa, lo) : tlhokofalo, tlhoko, falo
+tlhotlhomisa (tlho, tlho, mi, sa) : tlhotlhomisa, tlhotlho, tlhom, misa, tlhotlhom
+tshegetsong (tshe, ge, tso, ng) : tshegetsong, tshegets, tshege, tsong
+tshiamiso (tshi, a, mi, so) : tshiami, tshia, amiso
+tshireletsa (tshi, re, le, tsa) : tshireletsa, letsa, rele
+tsopodiso (tso, po, di, so) : tsopodi, tsopo, diso, tsopos
+wakolola (wa, ko, lo, la) : wakolola, kolo, kola, lowa
+bogakolodi (bo, ga, ko, lo, di) : bogakol, gakolodi, bogak, kolo, dibo
+boitumelo (bo, i, tu, me, lo) : boitumelo, boitume, boitum, melo
+botshwaragano (bo, tshwa, ra, ga, no) : botshwara, tshwaragano, botshwano, tshwara, tshwano, gano, rano, bora
+gompieno (go, m, pi, e, no) : gompieno, gompi, pieno, gopi, mpie
+goromente (go, ro, me, n, te) : goromente, goromen, gorom, mente
+kaisonyana (ka, i, so, nya, na) : kaisonyana, kaiso, sonyana, nyana, kais
+kopanelwang (ko, pa, ne, lwa, ng) : kopane, panelwang, nelwang, kopan, pane, nelwa, lwang
+legodibeng (le, go, di, be, ng) : legodibeng, godibe, dibe, beng, lego
+sebuelelo (se, bu, e, le, lo) : sebuelelo, sebuele, sebue, lelo
+serurubele (se, ru, ru, be, le) : seruru, seru, bele, rube
+tlhabologang (tlha, bo, lo, ga, ng) : tlhabologang, tlhabolog, tlhabo, gang
+boikaelelo (bo, i, ka, e, le, lo) : boikaelelo, boikael, ikaelelo, boika, elelo
+boikemisetso (bo, i, ke, mi, se, tso) : boike, kemisetso, boiketso, boikemi, misetso
+dirisanelwang (di, ri, sa, ne, lwa, ng) : dirisane, risanelwang, nelwang, dirisa, risane, nelwa, lwang
+garabologang (ga, ra, bo, lo, ga, ng) : garabolo, bologang, garab, gang, bologan, rabologa
+maikaelelo (ma, i, ka, e, le, lo) : maikaele, ikaelelo, maikaele, elelo, iele, kaele
+moikaelelo (mo, i, ka, e, le, lo) : moikaelelo, moikael, ikaelelo, moika, elelo, iele
+seadiragatsi (se, a, di, ra, ga, tsi) : seadiragatsi, seadirag, seadir, gatsi
+segompieno (se, go, m, pi, e, no) : segompieno, segompi, gompieno, segom, pieno

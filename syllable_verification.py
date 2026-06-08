@@ -4,12 +4,12 @@
 #   (base_word), solution1, solution2, ...  (parentheses = base word excluded from solution checks)
 #
 # Removes any solution word whose syllables are not a subset of the base word's syllables.
-# Writes the cleaned lines to "Cleaned Word game text file.txt".
+# Writes the cleaned lines to "Cleaned Word game text file.txt". with the base word syllables in parentheses.
 
 from syllable import extract_syllable
 
 # Load the entire input file and split into individual lines
-with open("Word_game_text_file_v2.txt", "r") as f:
+with open("Word game new file_v3.txt", "r") as f:
     all_sentences = f.read().split("\n")
 
 # Accumulators for the output and summary statistics
@@ -79,14 +79,20 @@ for sentence in all_sentences:
             removed_words.append(word)
             total_removed += 1
 
+    #write the base word syllables and the valid solution words to the output list
     # Only write a line if at least one valid solution survived
     if valid_solution_words:
-        output_base = f"({base_word})" if begin == 1 else base_word
-        cleaned_line = output_base + "," + ",".join(valid_solution_words)
+        cleaned_line = f"{base_word} ({', '.join(base_syllables)}) : {', '.join(valid_solution_words)}"
         cleaned_lines.append(cleaned_line)
 
+    #order the output file by number of syllables in the base word (ascending) and then alphabetically by base word
+cleaned_lines.sort(key=lambda line: (
+    len(line.split("(")[1].split(")")[0].split(", ")),
+    line.split()[0]
+))    
+
 # Write all surviving lines to the output file
-with open("Cleaned Word game text file_v2.txt", "w") as f:
+with open("Cleaned Word game text file_v4.txt", "w") as f:
     f.write("\n".join(cleaned_lines))
 
 # Print a final summary of what was kept, removed, and written
