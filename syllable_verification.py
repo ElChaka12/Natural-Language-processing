@@ -9,7 +9,7 @@
 from syllable import extract_syllable
 
 # Load the entire input file and split into individual lines
-with open("Word game text file.txt", "r") as f:
+with open("Word_game_text_file_v2.txt", "r") as f:
     all_sentences = f.read().split("\n")
 
 # Accumulators for the output and summary statistics
@@ -86,7 +86,7 @@ for sentence in all_sentences:
         cleaned_lines.append(cleaned_line)
 
 # Write all surviving lines to the output file
-with open("Cleaned Word game text file.txt", "w") as f:
+with open("Cleaned Word game text file_v2.txt", "w") as f:
     f.write("\n".join(cleaned_lines))
 
 # Print a final summary of what was kept, removed, and written
