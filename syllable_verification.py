@@ -91,7 +91,7 @@ with open("Cleaned Word game text file_v2.txt", "w") as f:
 
 # Print a final summary of what was kept, removed, and written
 print()
-print(f"Data cleaning complete.")
+print(f"Data cleani+ng complete.")
 print(f"Total valid solution words kept    : {total_kept}")
 print(f"Total invalid solution words removed: {total_removed}")
 print(f"Lines written to file              : {len(cleaned_lines)}")
